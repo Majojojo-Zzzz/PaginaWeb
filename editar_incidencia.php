@@ -1,4 +1,3 @@
-//Este archivo es para reportar las indicencias dentro del hotel
 <?php
 session_start();
 
