@@ -1,3 +1,4 @@
+//Este archivo es para reportar las indicencias dentro del hotel
 <?php
 session_start();
 
@@ -5,7 +6,7 @@ if (!isset($_SESSION['id_usuario'])) {
     header("Location: index.php");
     exit;
 }
-//hola
+
 require_once 'config/conexion.php';
 
 $id_incidencia = $_GET['id_incidencia'] ?? null;
